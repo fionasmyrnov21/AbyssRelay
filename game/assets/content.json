@@ -1,0 +1,1425 @@
+{
+  "version": 1,
+  "modules": {
+    "core": {
+      "id": "core",
+      "name_en": "Command module",
+      "category": "infrastructure",
+      "cost": {
+        "alloy": 0,
+        "parts": 0
+      },
+      "power": 0,
+      "crew": 0,
+      "shape": "dome",
+      "color": "8ad5ce",
+      "depth": 850,
+      "capacity": 220,
+      "build_time": 7,
+      "unlock": ""
+    },
+    "corridor": {
+      "id": "corridor",
+      "name_en": "Pressure corridor",
+      "category": "infrastructure",
+      "cost": {
+        "alloy": 4,
+        "parts": 1
+      },
+      "power": 0,
+      "crew": 0,
+      "shape": "corridor",
+      "color": "97b1b4",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 8,
+      "unlock": ""
+    },
+    "generator": {
+      "id": "generator",
+      "name_en": "Fuel generator",
+      "category": "power",
+      "cost": {
+        "alloy": 24,
+        "parts": 2
+      },
+      "power": -48,
+      "crew": 0,
+      "shape": "turbine",
+      "color": "e4b477",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 9,
+      "unlock": ""
+    },
+    "battery": {
+      "id": "battery",
+      "name_en": "Battery bank",
+      "category": "power",
+      "cost": {
+        "alloy": 18,
+        "parts": 2
+      },
+      "power": 0,
+      "crew": 0,
+      "shape": "battery",
+      "color": "dfb979",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 10,
+      "unlock": ""
+    },
+    "oxygen": {
+      "id": "oxygen",
+      "name_en": "Oxygen station",
+      "category": "life",
+      "cost": {
+        "alloy": 22,
+        "parts": 3
+      },
+      "power": 9,
+      "crew": 0,
+      "shape": "tanks",
+      "color": "8ddbc2",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 7,
+      "unlock": ""
+    },
+    "pump": {
+      "id": "pump",
+      "name_en": "Drainage pump",
+      "category": "life",
+      "cost": {
+        "alloy": 14,
+        "parts": 2
+      },
+      "power": 5,
+      "crew": 0,
+      "shape": "pump",
+      "color": "83b9d1",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 8,
+      "unlock": ""
+    },
+    "warehouse": {
+      "id": "warehouse",
+      "name_en": "Storage bay",
+      "category": "logistics",
+      "cost": {
+        "alloy": 14,
+        "parts": 1
+      },
+      "power": 2,
+      "crew": 0,
+      "shape": "cargo",
+      "color": "b2c1ba",
+      "depth": 850,
+      "capacity": 220,
+      "build_time": 9,
+      "unlock": ""
+    },
+    "dock": {
+      "id": "dock",
+      "name_en": "Drone dock",
+      "category": "logistics",
+      "cost": {
+        "alloy": 28,
+        "parts": 4
+      },
+      "power": 6,
+      "crew": 0,
+      "shape": "dock",
+      "color": "65c7d1",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 10,
+      "unlock": ""
+    },
+    "mine": {
+      "id": "mine",
+      "name_en": "Mining rig",
+      "category": "industry",
+      "cost": {
+        "alloy": 20,
+        "parts": 2
+      },
+      "power": 10,
+      "crew": 0,
+      "shape": "drill",
+      "color": "d6aa73",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 7,
+      "unlock": ""
+    },
+    "refinery": {
+      "id": "refinery",
+      "name_en": "Alloy refinery",
+      "category": "industry",
+      "cost": {
+        "alloy": 25,
+        "parts": 3
+      },
+      "power": 12,
+      "crew": 0,
+      "shape": "factory",
+      "color": "d3ab81",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 8,
+      "unlock": ""
+    },
+    "lab": {
+      "id": "lab",
+      "name_en": "Research laboratory",
+      "category": "science",
+      "cost": {
+        "alloy": 28,
+        "parts": 4
+      },
+      "power": 8,
+      "crew": 2,
+      "shape": "dome",
+      "color": "a6b0e1",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 9,
+      "unlock": ""
+    },
+    "relay": {
+      "id": "relay",
+      "name_en": "Relay station",
+      "category": "science",
+      "cost": {
+        "alloy": 30,
+        "parts": 3
+      },
+      "power": 5,
+      "crew": 0,
+      "shape": "antenna",
+      "color": "65d8cb",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 10,
+      "unlock": ""
+    },
+    "habitat": {
+      "id": "habitat",
+      "name_en": "Habitat",
+      "category": "life",
+      "cost": {
+        "alloy": 24,
+        "parts": 3
+      },
+      "power": 5,
+      "crew": 0,
+      "shape": "dome",
+      "color": "b7ccae",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 7,
+      "unlock": "life_1"
+    },
+    "oxygen_tank": {
+      "id": "oxygen_tank",
+      "name_en": "Oxygen reservoir",
+      "category": "life",
+      "cost": {
+        "alloy": 18,
+        "parts": 2
+      },
+      "power": 1,
+      "crew": 0,
+      "shape": "tanks",
+      "color": "87cab4",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 8,
+      "unlock": "life_2"
+    },
+    "terminal": {
+      "id": "terminal",
+      "name_en": "Cargo terminal",
+      "category": "logistics",
+      "cost": {
+        "alloy": 26,
+        "parts": 3
+      },
+      "power": 6,
+      "crew": 0,
+      "shape": "cargo",
+      "color": "a7c8cc",
+      "depth": 850,
+      "capacity": 220,
+      "build_time": 9,
+      "unlock": "auto_1"
+    },
+    "geothermal": {
+      "id": "geothermal",
+      "name_en": "Geothermal plant",
+      "category": "power",
+      "cost": {
+        "alloy": 42,
+        "parts": 5
+      },
+      "power": -85,
+      "crew": 0,
+      "shape": "turbine",
+      "color": "e1ac6d",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 10,
+      "unlock": "energy_2"
+    },
+    "tidal": {
+      "id": "tidal",
+      "name_en": "Current turbine",
+      "category": "power",
+      "cost": {
+        "alloy": 30,
+        "parts": 3
+      },
+      "power": -35,
+      "crew": 0,
+      "shape": "turbine",
+      "color": "8bc9dc",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 7,
+      "unlock": "energy_1"
+    },
+    "chemical": {
+      "id": "chemical",
+      "name_en": "Chemical synthesizer",
+      "category": "industry",
+      "cost": {
+        "alloy": 32,
+        "parts": 4
+      },
+      "power": 14,
+      "crew": 0,
+      "shape": "factory",
+      "color": "b9cb87",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 8,
+      "unlock": "life_3"
+    },
+    "electronics": {
+      "id": "electronics",
+      "name_en": "Electronics workshop",
+      "category": "industry",
+      "cost": {
+        "alloy": 34,
+        "parts": 4
+      },
+      "power": 14,
+      "crew": 0,
+      "shape": "factory",
+      "color": "b5a3cf",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 9,
+      "unlock": "auto_2"
+    },
+    "composite": {
+      "id": "composite",
+      "name_en": "Composite workshop",
+      "category": "industry",
+      "cost": {
+        "alloy": 38,
+        "parts": 5
+      },
+      "power": 16,
+      "crew": 0,
+      "shape": "factory",
+      "color": "a8bdb4",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 10,
+      "unlock": "hull_2"
+    },
+    "repair_shop": {
+      "id": "repair_shop",
+      "name_en": "Repair workshop",
+      "category": "industry",
+      "cost": {
+        "alloy": 28,
+        "parts": 3
+      },
+      "power": 8,
+      "crew": 0,
+      "shape": "factory",
+      "color": "dfbc87",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 7,
+      "unlock": "auto_3"
+    },
+    "observatory": {
+      "id": "observatory",
+      "name_en": "Passive observatory",
+      "category": "science",
+      "cost": {
+        "alloy": 34,
+        "parts": 4
+      },
+      "power": 8,
+      "crew": 2,
+      "shape": "dome",
+      "color": "9bc0df",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 8,
+      "unlock": "ocean_2"
+    },
+    "silencer": {
+      "id": "silencer",
+      "name_en": "Acoustic screen",
+      "category": "science",
+      "cost": {
+        "alloy": 30,
+        "parts": 3
+      },
+      "power": 6,
+      "crew": 0,
+      "shape": "antenna",
+      "color": "80baa8",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 9,
+      "unlock": "relay_2"
+    },
+    "beacon": {
+      "id": "beacon",
+      "name_en": "Abyss beacon",
+      "category": "science",
+      "cost": {
+        "alloy": 60,
+        "parts": 8
+      },
+      "power": 18,
+      "crew": 2,
+      "shape": "antenna",
+      "color": "d6c4a4",
+      "depth": 850,
+      "capacity": 50,
+      "build_time": 10,
+      "unlock": "relay_4"
+    }
+  },
+  "research": [
+    {
+      "id": "hull_1",
+      "name_en": "Reinforced shells",
+      "branch": "hull",
+      "branch_en": "Pressure hulls",
+      "cost": 21,
+      "duration": 18,
+      "requires": []
+    },
+    {
+      "id": "hull_2",
+      "name_en": "Composite armor",
+      "branch": "hull",
+      "branch_en": "Pressure hulls",
+      "cost": 30,
+      "duration": 24,
+      "requires": [
+        "hull_1"
+      ]
+    },
+    {
+      "id": "hull_3",
+      "name_en": "Abyss protection",
+      "branch": "hull",
+      "branch_en": "Pressure hulls",
+      "cost": 39,
+      "duration": 30,
+      "requires": [
+        "hull_2"
+      ]
+    },
+    {
+      "id": "hull_4",
+      "name_en": "Smart bulkheads",
+      "branch": "hull",
+      "branch_en": "Pressure hulls",
+      "cost": 48,
+      "duration": 36,
+      "requires": [
+        "hull_3"
+      ]
+    },
+    {
+      "id": "hull_5",
+      "name_en": "Seismic isolation",
+      "branch": "hull",
+      "branch_en": "Pressure hulls",
+      "cost": 57,
+      "duration": 42,
+      "requires": [
+        "hull_4"
+      ]
+    },
+    {
+      "id": "hull_6",
+      "name_en": "Resilience",
+      "branch": "hull",
+      "branch_en": "Pressure hulls",
+      "cost": 66,
+      "duration": 48,
+      "requires": [
+        "hull_5"
+      ]
+    },
+    {
+      "id": "energy_1",
+      "name_en": "Current turbines",
+      "branch": "energy",
+      "branch_en": "Power systems",
+      "cost": 21,
+      "duration": 18,
+      "requires": []
+    },
+    {
+      "id": "energy_2",
+      "name_en": "Geothermal power",
+      "branch": "energy",
+      "branch_en": "Power systems",
+      "cost": 30,
+      "duration": 24,
+      "requires": [
+        "energy_1"
+      ]
+    },
+    {
+      "id": "energy_3",
+      "name_en": "Dense batteries",
+      "branch": "energy",
+      "branch_en": "Power systems",
+      "cost": 39,
+      "duration": 30,
+      "requires": [
+        "energy_2"
+      ]
+    },
+    {
+      "id": "energy_4",
+      "name_en": "Smart grid",
+      "branch": "energy",
+      "branch_en": "Power systems",
+      "cost": 48,
+      "duration": 36,
+      "requires": [
+        "energy_3"
+      ]
+    },
+    {
+      "id": "energy_5",
+      "name_en": "Efficient synthesis",
+      "branch": "energy",
+      "branch_en": "Power systems",
+      "cost": 57,
+      "duration": 42,
+      "requires": [
+        "energy_4"
+      ]
+    },
+    {
+      "id": "energy_6",
+      "name_en": "Redundancy",
+      "branch": "energy",
+      "branch_en": "Power systems",
+      "cost": 66,
+      "duration": 48,
+      "requires": [
+        "energy_5"
+      ]
+    },
+    {
+      "id": "auto_1",
+      "name_en": "Cargo terminals",
+      "branch": "auto",
+      "branch_en": "Autonomy",
+      "cost": 21,
+      "duration": 18,
+      "requires": []
+    },
+    {
+      "id": "auto_2",
+      "name_en": "Microelectronics",
+      "branch": "auto",
+      "branch_en": "Autonomy",
+      "cost": 30,
+      "duration": 24,
+      "requires": [
+        "auto_1"
+      ]
+    },
+    {
+      "id": "auto_3",
+      "name_en": "Repair systems",
+      "branch": "auto",
+      "branch_en": "Autonomy",
+      "cost": 39,
+      "duration": 30,
+      "requires": [
+        "auto_2"
+      ]
+    },
+    {
+      "id": "auto_4",
+      "name_en": "Silent engines",
+      "branch": "auto",
+      "branch_en": "Autonomy",
+      "cost": 48,
+      "duration": 36,
+      "requires": [
+        "auto_3"
+      ]
+    },
+    {
+      "id": "auto_5",
+      "name_en": "Long routes",
+      "branch": "auto",
+      "branch_en": "Autonomy",
+      "cost": 57,
+      "duration": 42,
+      "requires": [
+        "auto_4"
+      ]
+    },
+    {
+      "id": "auto_6",
+      "name_en": "Autonomous swarms",
+      "branch": "auto",
+      "branch_en": "Autonomy",
+      "cost": 66,
+      "duration": 48,
+      "requires": [
+        "auto_5"
+      ]
+    },
+    {
+      "id": "ocean_1",
+      "name_en": "Sample analysis",
+      "branch": "ocean",
+      "branch_en": "Oceanography",
+      "cost": 21,
+      "duration": 18,
+      "requires": []
+    },
+    {
+      "id": "ocean_2",
+      "name_en": "Passive observation",
+      "branch": "ocean",
+      "branch_en": "Oceanography",
+      "cost": 30,
+      "duration": 24,
+      "requires": [
+        "ocean_1"
+      ]
+    },
+    {
+      "id": "ocean_3",
+      "name_en": "Deep biology",
+      "branch": "ocean",
+      "branch_en": "Oceanography",
+      "cost": 39,
+      "duration": 30,
+      "requires": [
+        "ocean_2"
+      ]
+    },
+    {
+      "id": "ocean_4",
+      "name_en": "Sonography",
+      "branch": "ocean",
+      "branch_en": "Oceanography",
+      "cost": 48,
+      "duration": 36,
+      "requires": [
+        "ocean_3"
+      ]
+    },
+    {
+      "id": "ocean_5",
+      "name_en": "Ecosystems",
+      "branch": "ocean",
+      "branch_en": "Oceanography",
+      "cost": 57,
+      "duration": 42,
+      "requires": [
+        "ocean_4"
+      ]
+    },
+    {
+      "id": "ocean_6",
+      "name_en": "Signal decoding",
+      "branch": "ocean",
+      "branch_en": "Oceanography",
+      "cost": 66,
+      "duration": 48,
+      "requires": [
+        "ocean_5"
+      ]
+    },
+    {
+      "id": "relay_1",
+      "name_en": "Seabed link",
+      "branch": "relay",
+      "branch_en": "Relay network",
+      "cost": 21,
+      "duration": 18,
+      "requires": []
+    },
+    {
+      "id": "relay_2",
+      "name_en": "Acoustic screens",
+      "branch": "relay",
+      "branch_en": "Relay network",
+      "cost": 30,
+      "duration": 24,
+      "requires": [
+        "relay_1"
+      ]
+    },
+    {
+      "id": "relay_3",
+      "name_en": "Relay protocols",
+      "branch": "relay",
+      "branch_en": "Relay network",
+      "cost": 39,
+      "duration": 30,
+      "requires": [
+        "relay_2"
+      ]
+    },
+    {
+      "id": "relay_4",
+      "name_en": "Deep beacon",
+      "branch": "relay",
+      "branch_en": "Relay network",
+      "cost": 48,
+      "duration": 36,
+      "requires": [
+        "relay_3"
+      ]
+    },
+    {
+      "id": "relay_5",
+      "name_en": "Noise rejection",
+      "branch": "relay",
+      "branch_en": "Relay network",
+      "cost": 57,
+      "duration": 42,
+      "requires": [
+        "relay_4"
+      ]
+    },
+    {
+      "id": "relay_6",
+      "name_en": "The final signal",
+      "branch": "relay",
+      "branch_en": "Relay network",
+      "cost": 66,
+      "duration": 48,
+      "requires": [
+        "relay_5"
+      ]
+    }
+  ],
+  "sectors": [
+    {
+      "id": "shelf",
+      "name_en": "Shelf edge",
+      "depth": 320,
+      "color": "4c9d9a",
+      "deposits": [
+        {
+          "cell": [
+            2,
+            0
+          ],
+          "amount": 600
+        },
+        {
+          "cell": [
+            3,
+            -3
+          ],
+          "amount": 600
+        },
+        {
+          "cell": [
+            -5,
+            2
+          ],
+          "amount": 600
+        },
+        {
+          "cell": [
+            5,
+            4
+          ],
+          "amount": 600
+        }
+      ],
+      "vents": []
+    },
+    {
+      "id": "slope",
+      "name_en": "Continental slope",
+      "depth": 1100,
+      "color": "4b83a0",
+      "deposits": [
+        {
+          "cell": [
+            2,
+            0
+          ],
+          "amount": 800
+        },
+        {
+          "cell": [
+            3,
+            -3
+          ],
+          "amount": 800
+        },
+        {
+          "cell": [
+            -5,
+            2
+          ],
+          "amount": 800
+        },
+        {
+          "cell": [
+            5,
+            4
+          ],
+          "amount": 800
+        }
+      ],
+      "vents": []
+    },
+    {
+      "id": "vents",
+      "name_en": "Hydrothermal field",
+      "depth": 2200,
+      "color": "b3936b",
+      "deposits": [
+        {
+          "cell": [
+            2,
+            0
+          ],
+          "amount": 1000
+        },
+        {
+          "cell": [
+            3,
+            -3
+          ],
+          "amount": 1000
+        },
+        {
+          "cell": [
+            -5,
+            2
+          ],
+          "amount": 1000
+        },
+        {
+          "cell": [
+            5,
+            4
+          ],
+          "amount": 1000
+        }
+      ],
+      "vents": [
+        [
+          4,
+          -2
+        ],
+        [
+          -4,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "abyss",
+      "name_en": "Abyssal plain",
+      "depth": 4100,
+      "color": "6a6f9b",
+      "deposits": [
+        {
+          "cell": [
+            2,
+            0
+          ],
+          "amount": 1200
+        },
+        {
+          "cell": [
+            3,
+            -3
+          ],
+          "amount": 1200
+        },
+        {
+          "cell": [
+            -5,
+            2
+          ],
+          "amount": 1200
+        },
+        {
+          "cell": [
+            5,
+            4
+          ],
+          "amount": 1200
+        }
+      ],
+      "vents": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "find_0",
+      "name_en": "Observatory fragment",
+      "sector": 0,
+      "cell": [
+        5,
+        -3
+      ],
+      "data": 12,
+      "samples": 2,
+      "lore_en": "The observatory archive contains a chart of the broken network. Its final record reads: 'First, learn to listen.' The next node lies farther down the slope."
+    },
+    {
+      "id": "find_1",
+      "name_en": "Luminous colony",
+      "sector": 0,
+      "cell": [
+        -5,
+        -4
+      ],
+      "data": 12,
+      "samples": 2,
+      "lore_en": "The colony flashes at regular intervals. A working drill disrupts its rhythm, which returns when the drill stops. Machinery influences the observed signal."
+    },
+    {
+      "id": "find_2",
+      "name_en": "Black box",
+      "sector": 0,
+      "cell": [
+        4,
+        5
+      ],
+      "data": 12,
+      "samples": 2,
+      "lore_en": "The black box recorded identical pulses before the uplink failed. The sequence repeats every seventeen seconds. Its source was deeper than the station."
+    },
+    {
+      "id": "find_3",
+      "name_en": "Silica skeleton",
+      "sector": 0,
+      "cell": [
+        -4,
+        5
+      ],
+      "data": 12,
+      "samples": 2,
+      "lore_en": "The hollow skeleton amplifies low frequencies. Old hydrophones show the same profile. Natural structures may carry the signal over long distances."
+    },
+    {
+      "id": "find_4",
+      "name_en": "Old seabed cable",
+      "sector": 1,
+      "cell": [
+        7,
+        2
+      ],
+      "data": 18,
+      "samples": 3,
+      "lore_en": "The old cable is intact but was disconnected manually. A service message warns: 'Transmission interferes with measurement.' Further work needs a separate quiet outpost."
+    },
+    {
+      "id": "find_5",
+      "name_en": "Singing sponge",
+      "sector": 1,
+      "cell": [
+        5,
+        -3
+      ],
+      "data": 18,
+      "samples": 3,
+      "lore_en": "The sponge responds to pulses out of phase. A group can suppress surrounding noise. This observation will inform acoustic screens."
+    },
+    {
+      "id": "find_6",
+      "name_en": "Sunken probe",
+      "sector": 1,
+      "cell": [
+        -5,
+        -4
+      ],
+      "data": 18,
+      "samples": 3,
+      "lore_en": "The probe retained accurate pressure readings. Its clock was correct: intermediate reflections caused the delay. The distant signal follows a complex route."
+    },
+    {
+      "id": "find_7",
+      "name_en": "Expedition archive",
+      "sector": 1,
+      "cell": [
+        4,
+        5
+      ],
+      "data": 18,
+      "samples": 3,
+      "lore_en": "The expedition stopped active scanning after detecting a stable response. Researchers switched to passive sensors. Their journal charts a hydrothermal field."
+    },
+    {
+      "id": "find_8",
+      "name_en": "Chemosynthetic colony",
+      "sector": 1,
+      "cell": [
+        -4,
+        5
+      ],
+      "data": 18,
+      "samples": 3,
+      "lore_en": "The colony draws energy from the vent and changes its glow with the flow. Neighboring groups synchronize. The ocean carries information through living communities."
+    },
+    {
+      "id": "find_9",
+      "name_en": "Thermal crystal",
+      "sector": 2,
+      "cell": [
+        7,
+        2
+      ],
+      "data": 24,
+      "samples": 4,
+      "lore_en": "The crystal absorbs vibration and remains stable under heat. It can help isolate sensitive equipment from noisy station systems."
+    },
+    {
+      "id": "find_10",
+      "name_en": "Migration trace",
+      "sector": 2,
+      "cell": [
+        5,
+        -3
+      ],
+      "data": 24,
+      "samples": 4,
+      "lore_en": "A school repeats a route between two faint sound sources. Its migration connects distant colonies. Industrial routes should avoid this corridor."
+    },
+    {
+      "id": "find_11",
+      "name_en": "Microfilament network",
+      "sector": 2,
+      "cell": [
+        -5,
+        -4
+      ],
+      "data": 24,
+      "samples": 4,
+      "lore_en": "Microfilaments form a distributed network. Adjacent links bypass damaged sections. Its structure resembles resilient relay infrastructure."
+    },
+    {
+      "id": "find_12",
+      "name_en": "Deep lens",
+      "sector": 2,
+      "cell": [
+        4,
+        5
+      ],
+      "data": 24,
+      "samples": 4,
+      "lore_en": "The lens protected a sensor from the last expedition. Its surface retains oscillations matching the earliest records. The signal spans every explored depth."
+    },
+    {
+      "id": "find_13",
+      "name_en": "Chart fragment",
+      "sector": 3,
+      "cell": [
+        -4,
+        5
+      ],
+      "data": 30,
+      "samples": 5,
+      "lore_en": "The chart shows an observatory on the abyssal plain. It was left passive to preserve the natural soundscape. Access requires deep-pressure protection."
+    },
+    {
+      "id": "find_14",
+      "name_en": "Forgotten relay",
+      "sector": 3,
+      "cell": [
+        7,
+        2
+      ],
+      "data": 30,
+      "samples": 5,
+      "lore_en": "The relay collected faint responses for years. Together they form a coherent sequence. Decoding requires synchronizing every outpost."
+    },
+    {
+      "id": "find_15",
+      "name_en": "Abyssal bloom",
+      "sector": 3,
+      "cell": [
+        5,
+        -3
+      ],
+      "data": 30,
+      "samples": 5,
+      "lore_en": "The abyssal bloom opens in time with distant pulses. In quiet conditions, other organisms gather around it. The signal guides an entire ecosystem."
+    },
+    {
+      "id": "find_16",
+      "name_en": "Observatory heart",
+      "sector": 3,
+      "cell": [
+        -5,
+        -4
+      ],
+      "data": 30,
+      "samples": 5,
+      "lore_en": "The observatory heart is an array of passive receivers. It can be restored in quiet operation. A deep beacon will combine the collected observations."
+    },
+    {
+      "id": "find_17",
+      "name_en": "Signal source",
+      "sector": 3,
+      "cell": [
+        4,
+        5
+      ],
+      "data": 30,
+      "samples": 5,
+      "lore_en": "The source is a distributed living system. Thousands of organisms sustain a shared rhythm through the ocean. The restored network can observe it while preserving its habitat."
+    }
+  ],
+  "contracts": [
+    {
+      "id": "contract_0",
+      "name_en": "Routine supply",
+      "resource": "alloy",
+      "amount": 20,
+      "credits": 40,
+      "data": 5,
+      "kind": "delivery",
+      "target": 20
+    },
+    {
+      "id": "contract_1",
+      "name_en": "Repair reserve",
+      "resource": "parts",
+      "amount": 8,
+      "credits": 52,
+      "data": 7,
+      "kind": "repair",
+      "target": 1
+    },
+    {
+      "id": "contract_2",
+      "name_en": "Mineral survey",
+      "resource": "ore",
+      "amount": 30,
+      "credits": 64,
+      "data": 9,
+      "kind": "survey",
+      "target": 2
+    },
+    {
+      "id": "contract_3",
+      "name_en": "Quiet research",
+      "resource": "data",
+      "amount": 20,
+      "credits": 76,
+      "data": 11,
+      "kind": "quiet",
+      "target": 45
+    },
+    {
+      "id": "contract_4",
+      "name_en": "Shelf samples",
+      "resource": "samples",
+      "amount": 3,
+      "credits": 88,
+      "data": 13,
+      "kind": "delivery",
+      "target": 3
+    },
+    {
+      "id": "contract_5",
+      "name_en": "Optical systems",
+      "resource": "quartz",
+      "amount": 15,
+      "credits": 100,
+      "data": 15,
+      "kind": "delivery",
+      "target": 15
+    },
+    {
+      "id": "contract_6",
+      "name_en": "Next station hull",
+      "resource": "alloy",
+      "amount": 40,
+      "credits": 112,
+      "data": 17,
+      "kind": "relay",
+      "target": 2
+    },
+    {
+      "id": "contract_7",
+      "name_en": "Autonomous complex",
+      "resource": "electronics",
+      "amount": 8,
+      "credits": 124,
+      "data": 19,
+      "kind": "research",
+      "target": 6
+    },
+    {
+      "id": "contract_8",
+      "name_en": "Deep biology",
+      "resource": "samples",
+      "amount": 6,
+      "credits": 136,
+      "data": 21,
+      "kind": "survey",
+      "target": 10
+    },
+    {
+      "id": "contract_9",
+      "name_en": "Network reinforcement",
+      "resource": "composite",
+      "amount": 8,
+      "credits": 148,
+      "data": 23,
+      "kind": "delivery",
+      "target": 8
+    },
+    {
+      "id": "contract_10",
+      "name_en": "Ocean archive",
+      "resource": "data",
+      "amount": 65,
+      "credits": 160,
+      "data": 25,
+      "kind": "uptime",
+      "target": 180
+    },
+    {
+      "id": "contract_11",
+      "name_en": "Final delivery",
+      "resource": "alloy",
+      "amount": 70,
+      "credits": 172,
+      "data": 27,
+      "kind": "delivery",
+      "target": 70
+    }
+  ],
+  "events": [
+    {
+      "id": "leak_0",
+      "kind": "leak",
+      "name_en": "Microleak",
+      "warning": 16,
+      "duration": 35
+    },
+    {
+      "id": "leak_1",
+      "kind": "leak",
+      "name_en": "Hull crack",
+      "warning": 18,
+      "duration": 40
+    },
+    {
+      "id": "leak_2",
+      "kind": "leak",
+      "name_en": "Worn seal",
+      "warning": 20,
+      "duration": 45
+    },
+    {
+      "id": "leak_3",
+      "kind": "leak",
+      "name_en": "Joint damage",
+      "warning": 22,
+      "duration": 50
+    },
+    {
+      "id": "leak_4",
+      "kind": "leak",
+      "name_en": "Depressurization",
+      "warning": 24,
+      "duration": 55
+    },
+    {
+      "id": "leak_5",
+      "kind": "leak",
+      "name_en": "Pressure fracture",
+      "warning": 26,
+      "duration": 60
+    },
+    {
+      "id": "power_0",
+      "kind": "power",
+      "name_en": "Line overload",
+      "warning": 16,
+      "duration": 35
+    },
+    {
+      "id": "power_1",
+      "kind": "power",
+      "name_en": "Converter fault",
+      "warning": 18,
+      "duration": 40
+    },
+    {
+      "id": "power_2",
+      "kind": "power",
+      "name_en": "Cable damage",
+      "warning": 20,
+      "duration": 45
+    },
+    {
+      "id": "power_3",
+      "kind": "power",
+      "name_en": "Short circuit",
+      "warning": 22,
+      "duration": 50
+    },
+    {
+      "id": "power_4",
+      "kind": "power",
+      "name_en": "Regulator fault",
+      "warning": 24,
+      "duration": 55
+    },
+    {
+      "id": "power_5",
+      "kind": "power",
+      "name_en": "Power loss",
+      "warning": 26,
+      "duration": 60
+    },
+    {
+      "id": "current_0",
+      "kind": "current",
+      "name_en": "Seabed current",
+      "warning": 16,
+      "duration": 35
+    },
+    {
+      "id": "current_1",
+      "kind": "current",
+      "name_en": "Silt cloud",
+      "warning": 18,
+      "duration": 40
+    },
+    {
+      "id": "current_2",
+      "kind": "current",
+      "name_en": "Distant storm",
+      "warning": 20,
+      "duration": 45
+    },
+    {
+      "id": "current_3",
+      "kind": "current",
+      "name_en": "Current shift",
+      "warning": 22,
+      "duration": 50
+    },
+    {
+      "id": "current_4",
+      "kind": "current",
+      "name_en": "Seismic ripple",
+      "warning": 24,
+      "duration": 55
+    },
+    {
+      "id": "current_5",
+      "kind": "current",
+      "name_en": "Dense sediment",
+      "warning": 26,
+      "duration": 60
+    },
+    {
+      "id": "bio_0",
+      "kind": "bio",
+      "name_en": "School near sensors",
+      "warning": 16,
+      "duration": 35
+    },
+    {
+      "id": "bio_1",
+      "kind": "bio",
+      "name_en": "Antenna fouling",
+      "warning": 18,
+      "duration": 40
+    },
+    {
+      "id": "bio_2",
+      "kind": "bio",
+      "name_en": "Song of the deep",
+      "warning": 20,
+      "duration": 45
+    },
+    {
+      "id": "bio_3",
+      "kind": "bio",
+      "name_en": "Large silhouette",
+      "warning": 22,
+      "duration": 50
+    },
+    {
+      "id": "bio_4",
+      "kind": "bio",
+      "name_en": "Plankton migration",
+      "warning": 24,
+      "duration": 55
+    },
+    {
+      "id": "bio_5",
+      "kind": "bio",
+      "name_en": "Acoustic resonance",
+      "warning": 26,
+      "duration": 60
+    }
+  ],
+  "resources": {
+    "alloy": "Alloy",
+    "ore": "Ore",
+    "parts": "Repair kits",
+    "fuel": "Fuel",
+    "data": "Data",
+    "quartz": "Quartz",
+    "electronics": "Electronics",
+    "samples": "Samples",
+    "composite": "Composite"
+  },
+  "creatures": [
+    "lanternfish",
+    "jellyfish",
+    "ray",
+    "whale",
+    "siphonophore",
+    "squid",
+    "tube_worm",
+    "abyss_bloom"
+  ]
+}

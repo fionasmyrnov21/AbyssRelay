@@ -1,0 +1,655 @@
+{
+  "claimed": [],
+  "completed": false,
+  "content_version": 1.0,
+  "credits": 180,
+  "drones": [
+    {
+      "battery": 100.0,
+      "cargo": {},
+      "hp": 100.0,
+      "id": 7,
+      "kind": "scout",
+      "path": [],
+      "pos": [
+        0.0,
+        1.0
+      ],
+      "prev": [
+        0.0,
+        1.0
+      ],
+      "progress": 0.0,
+      "protocol": "return",
+      "reserve": 22.0,
+      "sector": 0,
+      "state": "idle",
+      "task": {},
+      "upgrades": []
+    },
+    {
+      "battery": 100.0,
+      "cargo": {},
+      "hp": 100.0,
+      "id": 8,
+      "kind": "cargo",
+      "path": [],
+      "pos": [
+        0.0,
+        1.0
+      ],
+      "prev": [
+        0.0,
+        1.0
+      ],
+      "progress": 0.0,
+      "protocol": "return",
+      "reserve": 22.0,
+      "sector": 0,
+      "state": "idle",
+      "task": {},
+      "upgrades": []
+    },
+    {
+      "battery": 100.0,
+      "cargo": {},
+      "hp": 100.0,
+      "id": 9,
+      "kind": "engineer",
+      "path": [],
+      "pos": [
+        0.0,
+        1.0
+      ],
+      "prev": [
+        0.0,
+        1.0
+      ],
+      "progress": 0.0,
+      "protocol": "return",
+      "reserve": 22.0,
+      "sector": 0,
+      "state": "idle",
+      "task": {},
+      "upgrades": []
+    },
+    {
+      "battery": 100.0,
+      "cargo": {},
+      "hp": 100.0,
+      "id": 10,
+      "kind": "miner",
+      "path": [],
+      "pos": [
+        0.0,
+        1.0
+      ],
+      "prev": [
+        0.0,
+        1.0
+      ],
+      "progress": 0.0,
+      "protocol": "return",
+      "reserve": 22.0,
+      "sector": 0,
+      "state": "idle",
+      "task": {},
+      "upgrades": []
+    }
+  ],
+  "events": [],
+  "findings": [
+    {
+      "cell": [
+        5.0,
+        -3.0
+      ],
+      "data": 12.0,
+      "id": "find_0",
+      "lore_en": "An observatory record confirms that the signal repeats between stations. This sample will help restore the network.",
+      "lore_ru": "Запись обсерватории подтверждает: сигнал повторяется между станциями. Образец поможет восстановить сеть.",
+      "name_en": "Observatory fragment",
+      "name_ru": "Фрагмент обсерватории",
+      "samples": 2.0,
+      "sector": 0.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        -5.0,
+        -4.0
+      ],
+      "data": 12.0,
+      "id": "find_1",
+      "lore_en": "Sensors recorded an unusual response to noise. Quiet observation reveals more than active scanning.",
+      "lore_ru": "Датчики зафиксировали необычную реакцию на шум. Тихое наблюдение раскрывает больше, чем активное сканирование.",
+      "name_en": "Luminous colony",
+      "name_ru": "Светящаяся колония",
+      "samples": 2.0,
+      "sector": 0.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        4.0,
+        5.0
+      ],
+      "data": 12.0,
+      "id": "find_2",
+      "lore_en": "An observatory record confirms that the signal repeats between stations. This sample will help restore the network.",
+      "lore_ru": "Запись обсерватории подтверждает: сигнал повторяется между станциями. Образец поможет восстановить сеть.",
+      "name_en": "Black box",
+      "name_ru": "Чёрный ящик",
+      "samples": 2.0,
+      "sector": 0.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        -4.0,
+        5.0
+      ],
+      "data": 12.0,
+      "id": "find_3",
+      "lore_en": "Sensors recorded an unusual response to noise. Quiet observation reveals more than active scanning.",
+      "lore_ru": "Датчики зафиксировали необычную реакцию на шум. Тихое наблюдение раскрывает больше, чем активное сканирование.",
+      "name_en": "Silica skeleton",
+      "name_ru": "Кремниевый скелет",
+      "samples": 2.0,
+      "sector": 0.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        7.0,
+        2.0
+      ],
+      "data": 18.0,
+      "id": "find_4",
+      "lore_en": "An observatory record confirms that the signal repeats between stations. This sample will help restore the network.",
+      "lore_ru": "Запись обсерватории подтверждает: сигнал повторяется между станциями. Образец поможет восстановить сеть.",
+      "name_en": "Old seabed cable",
+      "name_ru": "Старая донная линия",
+      "samples": 3.0,
+      "sector": 1.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        5.0,
+        -3.0
+      ],
+      "data": 18.0,
+      "id": "find_5",
+      "lore_en": "Sensors recorded an unusual response to noise. Quiet observation reveals more than active scanning.",
+      "lore_ru": "Датчики зафиксировали необычную реакцию на шум. Тихое наблюдение раскрывает больше, чем активное сканирование.",
+      "name_en": "Singing sponge",
+      "name_ru": "Поющая губка",
+      "samples": 3.0,
+      "sector": 1.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        -5.0,
+        -4.0
+      ],
+      "data": 18.0,
+      "id": "find_6",
+      "lore_en": "An observatory record confirms that the signal repeats between stations. This sample will help restore the network.",
+      "lore_ru": "Запись обсерватории подтверждает: сигнал повторяется между станциями. Образец поможет восстановить сеть.",
+      "name_en": "Sunken probe",
+      "name_ru": "Затонувший зонд",
+      "samples": 3.0,
+      "sector": 1.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        4.0,
+        5.0
+      ],
+      "data": 18.0,
+      "id": "find_7",
+      "lore_en": "Sensors recorded an unusual response to noise. Quiet observation reveals more than active scanning.",
+      "lore_ru": "Датчики зафиксировали необычную реакцию на шум. Тихое наблюдение раскрывает больше, чем активное сканирование.",
+      "name_en": "Expedition archive",
+      "name_ru": "Архив экспедиции",
+      "samples": 3.0,
+      "sector": 1.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        -4.0,
+        5.0
+      ],
+      "data": 18.0,
+      "id": "find_8",
+      "lore_en": "An observatory record confirms that the signal repeats between stations. This sample will help restore the network.",
+      "lore_ru": "Запись обсерватории подтверждает: сигнал повторяется между станциями. Образец поможет восстановить сеть.",
+      "name_en": "Chemosynthetic colony",
+      "name_ru": "Хемосинтетическая колония",
+      "samples": 3.0,
+      "sector": 1.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        7.0,
+        2.0
+      ],
+      "data": 24.0,
+      "id": "find_9",
+      "lore_en": "Sensors recorded an unusual response to noise. Quiet observation reveals more than active scanning.",
+      "lore_ru": "Датчики зафиксировали необычную реакцию на шум. Тихое наблюдение раскрывает больше, чем активное сканирование.",
+      "name_en": "Thermal crystal",
+      "name_ru": "Термальный кристалл",
+      "samples": 4.0,
+      "sector": 2.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        5.0,
+        -3.0
+      ],
+      "data": 24.0,
+      "id": "find_10",
+      "lore_en": "An observatory record confirms that the signal repeats between stations. This sample will help restore the network.",
+      "lore_ru": "Запись обсерватории подтверждает: сигнал повторяется между станциями. Образец поможет восстановить сеть.",
+      "name_en": "Migration trace",
+      "name_ru": "След миграции",
+      "samples": 4.0,
+      "sector": 2.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        -5.0,
+        -4.0
+      ],
+      "data": 24.0,
+      "id": "find_11",
+      "lore_en": "Sensors recorded an unusual response to noise. Quiet observation reveals more than active scanning.",
+      "lore_ru": "Датчики зафиксировали необычную реакцию на шум. Тихое наблюдение раскрывает больше, чем активное сканирование.",
+      "name_en": "Microfilament network",
+      "name_ru": "Сеть микрофиламентов",
+      "samples": 4.0,
+      "sector": 2.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        4.0,
+        5.0
+      ],
+      "data": 24.0,
+      "id": "find_12",
+      "lore_en": "An observatory record confirms that the signal repeats between stations. This sample will help restore the network.",
+      "lore_ru": "Запись обсерватории подтверждает: сигнал повторяется между станциями. Образец поможет восстановить сеть.",
+      "name_en": "Deep lens",
+      "name_ru": "Глубинная линза",
+      "samples": 4.0,
+      "sector": 2.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        -4.0,
+        5.0
+      ],
+      "data": 30.0,
+      "id": "find_13",
+      "lore_en": "Sensors recorded an unusual response to noise. Quiet observation reveals more than active scanning.",
+      "lore_ru": "Датчики зафиксировали необычную реакцию на шум. Тихое наблюдение раскрывает больше, чем активное сканирование.",
+      "name_en": "Chart fragment",
+      "name_ru": "Фрагмент карты",
+      "samples": 5.0,
+      "sector": 3.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        7.0,
+        2.0
+      ],
+      "data": 30.0,
+      "id": "find_14",
+      "lore_en": "An observatory record confirms that the signal repeats between stations. This sample will help restore the network.",
+      "lore_ru": "Запись обсерватории подтверждает: сигнал повторяется между станциями. Образец поможет восстановить сеть.",
+      "name_en": "Forgotten relay",
+      "name_ru": "Забытый ретранслятор",
+      "samples": 5.0,
+      "sector": 3.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        5.0,
+        -3.0
+      ],
+      "data": 30.0,
+      "id": "find_15",
+      "lore_en": "Sensors recorded an unusual response to noise. Quiet observation reveals more than active scanning.",
+      "lore_ru": "Датчики зафиксировали необычную реакцию на шум. Тихое наблюдение раскрывает больше, чем активное сканирование.",
+      "name_en": "Abyssal bloom",
+      "name_ru": "Абиссальный цветок",
+      "samples": 5.0,
+      "sector": 3.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        -5.0,
+        -4.0
+      ],
+      "data": 30.0,
+      "id": "find_16",
+      "lore_en": "An observatory record confirms that the signal repeats between stations. This sample will help restore the network.",
+      "lore_ru": "Запись обсерватории подтверждает: сигнал повторяется между станциями. Образец поможет восстановить сеть.",
+      "name_en": "Observatory heart",
+      "name_ru": "Сердце обсерватории",
+      "samples": 5.0,
+      "sector": 3.0,
+      "status": "unknown"
+    },
+    {
+      "cell": [
+        4.0,
+        5.0
+      ],
+      "data": 30.0,
+      "id": "find_17",
+      "lore_en": "Sensors recorded an unusual response to noise. Quiet observation reveals more than active scanning.",
+      "lore_ru": "Датчики зафиксировали необычную реакцию на шум. Тихое наблюдение раскрывает больше, чем активное сканирование.",
+      "name_en": "Signal source",
+      "name_ru": "Источник сигнала",
+      "samples": 5.0,
+      "sector": 3.0,
+      "status": "unknown"
+    }
+  ],
+  "links": [],
+  "logbook": [
+    {
+      "en": "Expedition deployed. Survey the signal and build a relay.",
+      "ru": "Экспедиция прибыла. Разведайте сигнал и постройте ретранслятор.",
+      "time": 0.0
+    }
+  ],
+  "modules": [
+    {
+      "battery": 0.0,
+      "built": true,
+      "connected": true,
+      "enabled": true,
+      "fault": 0.0,
+      "group": 1,
+      "hp": 100.0,
+      "id": 1,
+      "incoming": {},
+      "kind": "core",
+      "leak": 0.0,
+      "oxygen": 75.0,
+      "powered": true,
+      "priority": 2,
+      "progress": 0.0,
+      "reason": "",
+      "reserved": {},
+      "sealed": false,
+      "sector": 0,
+      "signal": true,
+      "stock": {
+        "alloy": 130,
+        "composite": 0,
+        "data": 22,
+        "electronics": 0,
+        "fuel": 12,
+        "ore": 20,
+        "parts": 20,
+        "quartz": 12,
+        "samples": 0
+      },
+      "water": 0.0,
+      "work": 0.0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "battery": 0.0,
+      "built": true,
+      "connected": false,
+      "enabled": true,
+      "fault": 0.0,
+      "group": 1,
+      "hp": 100.0,
+      "id": 2,
+      "incoming": {},
+      "kind": "generator",
+      "leak": 0.0,
+      "oxygen": 75.0,
+      "powered": true,
+      "priority": 3,
+      "progress": 0.0,
+      "reason": "",
+      "reserved": {},
+      "sealed": false,
+      "sector": 0,
+      "signal": true,
+      "stock": {},
+      "water": 0.0,
+      "work": 0.0,
+      "x": -1,
+      "y": 0
+    },
+    {
+      "battery": 0.0,
+      "built": true,
+      "connected": true,
+      "enabled": true,
+      "fault": 0.0,
+      "group": 1,
+      "hp": 100.0,
+      "id": 3,
+      "incoming": {},
+      "kind": "oxygen",
+      "leak": 0.0,
+      "oxygen": 75.0,
+      "powered": true,
+      "priority": 0,
+      "progress": 0.0,
+      "reason": "",
+      "reserved": {},
+      "sealed": false,
+      "sector": 0,
+      "signal": true,
+      "stock": {},
+      "water": 0.0,
+      "work": 0.0,
+      "x": 0,
+      "y": -1
+    },
+    {
+      "battery": 0.0,
+      "built": true,
+      "connected": true,
+      "enabled": true,
+      "fault": 0.0,
+      "group": 1,
+      "hp": 100.0,
+      "id": 4,
+      "incoming": {},
+      "kind": "warehouse",
+      "leak": 0.0,
+      "oxygen": 75.0,
+      "powered": true,
+      "priority": 3,
+      "progress": 0.0,
+      "reason": "",
+      "reserved": {},
+      "sealed": false,
+      "sector": 0,
+      "signal": true,
+      "stock": {},
+      "water": 0.0,
+      "work": 0.0,
+      "x": 1,
+      "y": 0
+    },
+    {
+      "battery": 0.0,
+      "built": true,
+      "connected": true,
+      "enabled": true,
+      "fault": 0.0,
+      "group": 1,
+      "hp": 100.0,
+      "id": 5,
+      "incoming": {},
+      "kind": "dock",
+      "leak": 0.0,
+      "oxygen": 75.0,
+      "powered": true,
+      "priority": 1,
+      "progress": 0.0,
+      "reason": "",
+      "reserved": {},
+      "sealed": false,
+      "sector": 0,
+      "signal": true,
+      "stock": {},
+      "water": 0.0,
+      "work": 0.0,
+      "x": 0,
+      "y": 1
+    },
+    {
+      "battery": 5.0,
+      "built": true,
+      "connected": true,
+      "enabled": true,
+      "fault": 0.0,
+      "group": 1,
+      "hp": 100.0,
+      "id": 6,
+      "incoming": {},
+      "kind": "battery",
+      "leak": 0.0,
+      "oxygen": 75.0,
+      "powered": true,
+      "priority": 3,
+      "progress": 0.0,
+      "reason": "",
+      "reserved": {},
+      "sealed": false,
+      "sector": 0,
+      "signal": true,
+      "stock": {},
+      "water": 0.0,
+      "work": 0.0,
+      "x": -1,
+      "y": 1
+    },
+    {
+      "battery": 0.0,
+      "built": true,
+      "connected": true,
+      "enabled": true,
+      "fault": 0.0,
+      "group": 1,
+      "hp": 100.0,
+      "id": 11,
+      "incoming": {},
+      "kind": "mine",
+      "leak": 0.0,
+      "oxygen": 75.0,
+      "powered": true,
+      "priority": 3,
+      "progress": 0.0,
+      "reason": "",
+      "reserved": {},
+      "sealed": false,
+      "sector": 0,
+      "signal": true,
+      "stock": {},
+      "water": 0.0,
+      "work": 0.0,
+      "x": 2,
+      "y": 0
+    },
+    {
+      "battery": 0.0,
+      "built": true,
+      "connected": true,
+      "enabled": true,
+      "fault": 0.0,
+      "group": 1,
+      "hp": 100.0,
+      "id": 12,
+      "incoming": {},
+      "kind": "refinery",
+      "leak": 0.0,
+      "oxygen": 75.0,
+      "powered": true,
+      "priority": 3,
+      "progress": 0.0,
+      "reason": "",
+      "reserved": {},
+      "sealed": false,
+      "sector": 0,
+      "signal": true,
+      "stock": {},
+      "water": 0.0,
+      "work": 0.0,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "battery": 0.0,
+      "built": true,
+      "connected": true,
+      "enabled": true,
+      "fault": 0.0,
+      "group": 1,
+      "hp": 100.0,
+      "id": 13,
+      "incoming": {},
+      "kind": "lab",
+      "leak": 0.0,
+      "oxygen": 75.0,
+      "powered": true,
+      "priority": 3,
+      "progress": 0.0,
+      "reason": "",
+      "reserved": {},
+      "sealed": false,
+      "sector": 0,
+      "signal": true,
+      "stock": {},
+      "water": 0.0,
+      "work": 0.0,
+      "x": -1,
+      "y": -1
+    }
+  ],
+  "next_event": 110.0,
+  "next_id": 14,
+  "rescue_used": false,
+  "research": {},
+  "researched": [],
+  "rng": "7559712863160793154",
+  "sector": 0,
+  "sectors_open": [
+    0
+  ],
+  "statistics": {
+    "built": 0,
+    "delivered": 0,
+    "repairs": 0,
+    "scanned": 0
+  },
+  "time": 0.0,
+  "tutorial": 0,
+  "version": 1
+}
