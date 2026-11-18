@@ -1,0 +1,27 @@
+{
+  "assets": [
+    {
+      "id": "menu-ocean",
+      "path": "game/assets/menu-ocean.png",
+      "tool": "built-in image_gen",
+      "use": "main menu illustration",
+      "prompt": "Use case: stylized-concept. Asset type: finished background illustration for the main menu of the underwater engineering strategy game Abyss Relay. Create an extraordinary cinematic wide landscape of a small luminous deep-sea scientific station on the ocean floor, modular white industrial pressure vessels connected by glass walkways, warm amber windows and cyan docking lights. The station is concentrated in the RIGHT HALF, with the LEFT HALF mostly dark deep teal negative space for a menu title. Extremely deep dark ocean, majestic vertical rock formations, subtle bioluminescent plankton, a large distant whale silhouette near the upper right. Sophisticated painterly realistic game art, atmospheric perspective, crisp small architectural details, restrained cyan and amber lighting, quiet mysterious mood, no horror. Camera is oblique looking slightly downward from a distance. Wide 16:9 composition. No letters, no typography, no watermarks, no interface, no frames. It is artwork to be used behind a native game menu, not an interface mockup."
+    },
+    {
+      "id": "seabed",
+      "path": "game/assets/seabed.png",
+      "tool": "built-in image_gen",
+      "use": "gameplay environment plate",
+      "prompt": "Use case: stylized-concept. Asset type: environment backdrop for an isometric deep sea base-building game, with gameplay geometry drawn on top. Wide 16:9 landscape. An empty gently sloping ocean floor 320 meters deep, viewed at a fixed oblique downward camera angle, expansive CLEAR EMPTY smooth dark teal sediment across the center and lower middle. Intricate rock formations and fine coldwater corals only at the far left edge, bottom corners, and far right edge. Distant blue-green underwater canyon in upper third, a faint whale silhouette far in the upper right. Subtle luminous plankton and soft distant light rays. Sophisticated cinematic painterly game art with detailed natural textures. Color palette very dark desaturated teal, gentle blue illumination and subtle cyan bioluminescence. Keep the central 70 percent uncluttered, low contrast, fairly flat, and dark enough to draw a readable illuminated scientific station on it. NO BUILDINGS, no machines, no objects in the middle, no characters, no UI, no grid, no letters, no watermark. This is an empty playable environment plate, not a screenshot."
+    }
+  ],
+  "font": {
+    "name": "Manrope",
+    "license": "SIL OFL 1.1",
+    "path": "game/assets/FONT-LICENSE.txt"
+  },
+  "audio": {
+    "generator": "scripts/generate_audio.py",
+    "origin": "original deterministic synthesis"
+  }
+}
