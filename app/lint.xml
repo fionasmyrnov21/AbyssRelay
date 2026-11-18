@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Godot's AAR includes a legacy OBB downloader. This app loads only its
+         bundled PCK, never initializes that downloader, and posts no notifications.
+         Restrict this exception to the unused third-party SystemFacade diagnostic. -->
+    <issue id="NotificationPermission">
+        <ignore regexp=".*com\.google\.android\.vending\.expansion\.downloader\.SystemFacade.*" />
+    </issue>
+</lint>
