@@ -13,8 +13,8 @@ android {
         applicationId = "com.abyssrelay.p8v2n6"
         minSdk = 30
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 11
+        versionName = "1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         ndk { abiFilters += if (providers.gradleProperty("abyssX86").orNull == "true")
