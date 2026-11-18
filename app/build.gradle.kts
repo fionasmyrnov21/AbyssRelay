@@ -56,15 +56,37 @@ dependencies {
 val exportGodotGame by tasks.registering(Exec::class) {
     val gameDirectory = rootProject.layout.projectDirectory.dir("game")
     val gamePack = layout.projectDirectory.file("src/main/assets/abyss.pck")
-    inputs.files(fileTree(gameDirectory) { exclude(".godot/**") })
+
+    inputs.files(fileTree(gameDirectory) {
+        exclude(".godot/**")
+    })
+
     outputs.file(gamePack)
-    val bundledGodot = rootProject.file(".tools/Godot.app/Contents/MacOS/Godot")
-    val linuxGodot = rootProject.file(".tools/godot")
+
     val executable = providers.environmentVariable("GODOT_BIN").orNull
-        ?: if (bundledGodot.exists()) bundledGodot.absolutePath
-        else if (linuxGodot.exists()) linuxGodot.absolutePath else "godot"
-    commandLine(executable, "--headless", "--path", gameDirectory.asFile.absolutePath,
-        "--export-pack", "Android", gamePack.asFile.absolutePath)
+        ?: "godot"
+
+    doFirst {
+        if (!File(executable).exists() && executable != "godot") {
+            throw GradleException("Godot executable not found: $executable")
+        }
+
+        gamePack.asFile.parentFile.mkdirs()
+
+        println("Godot executable: $executable")
+        println("Godot project: ${gameDirectory.asFile.absolutePath}")
+        println("Output PCK: ${gamePack.asFile.absolutePath}")
+    }
+
+    commandLine(
+        executable,
+        "--headless",
+        "--path", gameDirectory.asFile.absolutePath,
+        "--export-pack", "Android",
+        gamePack.asFile.absolutePath
+    )
 }
 
-tasks.named("preBuild") { dependsOn(exportGodotGame) }
+tasks.named("preBuild") {
+    dependsOn(exportGodotGame)
+}
